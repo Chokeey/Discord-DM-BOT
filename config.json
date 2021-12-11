@@ -1,0 +1,9 @@
+{
+  "proxyuser": "geonode_94xDyQbtzB",
+  "proxypass": "",
+  "threads": 10,
+  "dataUpdateFrequency": 1,
+  "message": "",
+  "dmPerBot": 10,
+  "tokenFileFormat": "tokenonly"
+}

@@ -1,0 +1,62 @@
+Traceback (most recent call last):
+  File "main.py", line 68, in <module>
+  File "pymongo\collection.pyc", line 2100, in create_index
+  File "pymongo\collection.pyc", line 1960, in __create_indexes
+  File "pymongo\collection.pyc", line 198, in _socket_for_writes
+  File "pymongo\mongo_client.pyc", line 1356, in _socket_for_writes
+  File "pymongo\mongo_client.pyc", line 1346, in _select_server
+  File "pymongo\topology.pyc", line 244, in select_server
+  File "pymongo\topology.pyc", line 202, in select_servers
+  File "pymongo\topology.pyc", line 218, in _select_servers_loop
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it, Timeout: 30s, Topology Description: <TopologyDescription id: 6171b885e62fbc67147f2ad2, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it')>]>
+Traceback (most recent call last):
+  File "main.py", line 68, in <module>
+  File "pymongo\collection.pyc", line 2100, in create_index
+  File "pymongo\collection.pyc", line 1960, in __create_indexes
+  File "pymongo\collection.pyc", line 198, in _socket_for_writes
+  File "pymongo\mongo_client.pyc", line 1356, in _socket_for_writes
+  File "pymongo\mongo_client.pyc", line 1346, in _select_server
+  File "pymongo\topology.pyc", line 244, in select_server
+  File "pymongo\topology.pyc", line 202, in select_servers
+  File "pymongo\topology.pyc", line 218, in _select_servers_loop
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it, Timeout: 30s, Topology Description: <TopologyDescription id: 6171b89917dde6411e167758, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it')>]>
+Traceback (most recent call last):
+  File "main.py", line 104, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'rotatingproxies.txt'
+Traceback (most recent call last):
+  File "main.py", line 104, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'rotatingproxies.txt'
+Traceback (most recent call last):
+  File "main.py", line 104, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'rotatingproxies.txt'
+Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<ChokeBot.SendInviteMessage() done, defined at ChokeBot.pyc:42> exception=HTTPException('400 Bad Request (error code: 50035): Invalid Form Body\nIn user_id: Value "exampleID12345" is not snowflake.')>
+Traceback (most recent call last):
+  File "ChokeBot.pyc", line 43, in SendInviteMessage
+  File "discord\client.pyc", line 1362, in fetch_user
+  File "discord\http.pyc", line 302, in request
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In user_id: Value "exampleID12345" is not snowflake.
+Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<ChokeBot.SendInviteMessage() done, defined at ChokeBot.pyc:42> exception=HTTPException('400 Bad Request (error code: 50035): Invalid Form Body\nIn user_id: Value "exampleID12345" is not snowflake.')>
+Traceback (most recent call last):
+  File "ChokeBot.pyc", line 43, in SendInviteMessage
+  File "discord\client.pyc", line 1362, in fetch_user
+  File "discord\http.pyc", line 302, in request
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In user_id: Value "exampleID12345" is not snowflake.
+Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<ChokeBot.SendInviteMessage() done, defined at ChokeBot.pyc:42> exception=HTTPException('400 Bad Request (error code: 50035): Invalid Form Body\nIn user_id: Value "exampleID12345" is not snowflake.')>
+Traceback (most recent call last):
+  File "ChokeBot.pyc", line 43, in SendInviteMessage
+  File "discord\client.pyc", line 1362, in fetch_user
+  File "discord\http.pyc", line 302, in request
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In user_id: Value "exampleID12345" is not snowflake.
+Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<ChokeBot.SendInviteMessage() done, defined at ChokeBot.pyc:42> exception=Forbidden('403 Forbidden (error code: 50007): Cannot send messages to this user')>
+Traceback (most recent call last):
+  File "ChokeBot.pyc", line 44, in SendInviteMessage
+  File "discord\abc.pyc", line 1061, in send
+  File "discord\http.pyc", line 296, in request
+discord.errors.Forbidden: 403 Forbidden (error code: 50007): Cannot send messages to this user
